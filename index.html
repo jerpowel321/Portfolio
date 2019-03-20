@@ -7,63 +7,33 @@
   <title>About | Jennifer Powell</title>
   <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/images/icon.png" />
 </head>
 
 <body>
-  <!-- Background movie -->
+  <!-- Background movie
   <div id="container">
-    <video id="background_video" autoplay loop muted>
+    <video id="background_video" autoplay loop muted> -->
       <!-- <source src="" type="video/mp4"> -->
-    </video>
-  </div>
+    <!-- </video>
+  </div> -->
 
 
 
-  <script src="assets/javascript/bideo.js"></script>
+  <!-- <script src="assets/javascript/bideo.js"></script>
   <script src="assets/javascript/main.js"></script>
 
   <script>
     if (window.location.host.indexOf('github.io') !== -1 && window.location.protocol !== "https:") {
       window.location.protocol = "https";
     }
-  </script>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    #theader #traBody #webBody #notStrong #urbanBody #countBody #t2body {
-      z-index: 2;
-    }
-
-    #container {
-      overflow: hidden;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: -200;
-    }
-
-    #background_video {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-      z-index: inherit;
-    }
-  </style>
-
+  </script> -->
 
   <div id="header">
     <header id="masthead">
       <div class="container">
-        <a href="index.html" id="logo">Jennifer Powell</a>
+          <img id="penguin" src="assets/images/penguin.png">
+        <a id="logo">Jennifer Powell</a>
         <nav id="header">
           <a href="#aboutAnchor">About</a>
           <a href="#portfolioAnchor">Portfolio</a>
@@ -74,16 +44,10 @@
   </div>
 
   <div id="main-container" class="container wrapper">
-    <section class="main-section">
+    <section class="main-section" id = "about">
       <h1 id="aboutAnchor">About Me</h1>
-
       <img id="main-content" src="assets/images/me.png" class="auth-image" alt="Your Name">
-
       <p id="p1"></p>
-
-      <p id="p2"></p>
-
-      <p id="p3"></p>
 
     </section>
 
@@ -179,8 +143,7 @@
   </div>
   <div id="main-container" class="container wrapper">
     <section class="main-section">
-      <h1 id="contactAnchor">Contact Me</h1>
-      <p>Email: jerpowel321@gmail.com</p>
+      <h1 id="contactAnchor">Contact </h1>
       <div id="contactIcon">
         <a href="https://www.linkedin.com/in/jenniferrpowell" target="blank"><img class="contactIcon"
             src="assets/images/linkedin.png" class="auth-image" alt="linkedin"></a>
@@ -189,6 +152,8 @@
         <a href="https://medium.com/@jerpowel321/coding-bootcamp-reflection-computer-tropical-drink-3ebc5dc1503b"
           target="blank"><img class="contactIcon" id="medium" src="assets/images/medium.png" class="auth-image"
             alt="blog"></a>
+        <a href="mailto:jerpowel@gmail.com?Subject=Hello I Saw Your Portfolio Webpage" target="blank"><img class="contactIcon" id="gmail"
+            src="assets/images/gmail.png" class="auth-image" alt="blog"></a>
       </div>
     </section>
 
