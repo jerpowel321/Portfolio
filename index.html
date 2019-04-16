@@ -6,155 +6,226 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | Jennifer Powell</title>
   <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="icon" type="image/png" href="assets/images/icon.png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
 </head>
 
 <body>
-  <!-- Background movie
-  <div id="container">
-    <video id="background_video" autoplay loop muted> -->
-      <!-- <source src="" type="video/mp4"> -->
-    <!-- </video>
-  </div> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-center sticky-top">
+    <div class="container">
+    <a class="navbar-brand" href="#">
+      <img id="penguin" src="assets/images/penguin.png" width="32" height="32" class="d-inline-block" alt="">
+      Jennifer Powell
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-right" href="#">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-right" href="#skillsPage">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-right" href="#portfolioPage">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-right" href="#contactPage">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <div id="aboutPage">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <section id="about">
+            <h1 id="aboutAnchor" class="text-center">About Me</h1>
+            <img id="main-content" src="assets/images/me.jpeg" class="auth-image" alt="Your Name">
+            <p>Hello! Welcome to my portfolio showcasing my projects for the past three months. After several years of
+              working
+              in public accounting, I decided to switch my career towards web and software development. I have had an
+              interest
+              in programming since college, however only recently did I pursue this passion. In any job, I want to be
+              continuously challenged, I want to learn something new everyday, and I want to be apart of something that
+              could
+              make a difference in the world, however big or small. Specifically, I chose to pursue web and software
+              development because I wanted to be apart of the creative process, of seeing a project through to
+              completion and
+              seeing the results of the end users. I have a strong work ethic, proven track record and am looking for a
+              full-time job as a full-stack developer.
+            </p>
+        </div>
+        <div class="col-sm">
 
+        </div>
+        <div class="col-sm">
 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="skillsPage">
+    <div class="container">
+      <h1 id="skills" class="text-center">Skills</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              Front End
+            </div>
+            <div class="card-body">
 
-  <!-- <script src="assets/javascript/bideo.js"></script>
-  <script src="assets/javascript/main.js"></script>
+              <span><i class="pink fab fa-css3-alt fa-3x"></i>CSS</span>
+              <span><i class="pink fab fa-html5 fa-3x"></i>HTML5</span>
+              <span><i class="pink fab fa-js-square fa-3x"></i>JavaScript</cpan>
 
-  <script>
-    if (window.location.host.indexOf('github.io') !== -1 && window.location.protocol !== "https:") {
-      window.location.protocol = "https";
-    }
-  </script> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              Back End
+            </div>
+            <div class="card-body">
+              <!--   
+                <span><i class="pink fab fa-css3-alt fa-3x"></i>CSS</span>
+                <span><i class="pink fab fa-html5 fa-3x"></i>HTML5</span>
+                <span><i class="pink fab fa-js-square fa-3x"></i>JavaScript</cpan> -->
 
-  <div id="header">
-    <header id="masthead">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolioPage">
+    <div class="container">
+      <h1 id="portfolioAnchor" class="text-center">Portfolio</h1>
+      <section>
+        <div id="portfolio" class="row">
+            <div class="card-group col-lg-4">
+              <div class="card">
+                <div class="card-header">Train Scheduler</div>
+                <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
+                <div class="card-body">
+                  <p class="card-text">Some Information regarding the APP</p>
+                </div>
+                <div class="card-body">
+                  <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
+                    link</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-group col-lg-4">
+              <div class="card">
+                <div class="card-header">Train Scheduler</div>
+                <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
+                <div class="card-body">
+                  <p class="card-text">Some Information regarding the APP</p>
+                </div>
+                <div class="card-body">
+                  <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
+                    link</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-group col-lg-4">
+              <div class="card">
+                <div class="card-header">Train Scheduler</div>
+                <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
+                <div class="card-body">
+                  <p class="card-text">Some Information regarding the APP</p>
+                </div>
+                <div class="card-body">
+                  <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
+                    link</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-group col-lg-4">
+              <div class="card">
+                <div class="card-header">House M.D. Trivia Game</div>
+                <img src="assets/images/house.png" class="card-img-top" alt="House Trivia Game">
+                <div class="card-body">
+                  <p class="card-text">Some Information regarding the APP</p>
+                </div>
+                <div class="card-body">
+                  <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
+                    link</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-group col-lg-4">
+              <div class="card">
+                <div class="card-header">Giphy Search</div>
+                <img src="assets/images/giphy.png" class="card-img-top" alt="Giphy Search">
+                <div class="card-body">
+                  <p class="card-text">Some Information regarding the APP</p>
+                </div>
+                <div class="card-body">
+                  <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
+                    link</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-group col-lg-4">
+              <div class="card">
+                <div class="card-header">Train Scheduler</div>
+                <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
+                <div class="card-body">
+                  <p class="card-text">Some Information regarding the APP</p>
+                </div>
+                <div class="card-body">
+                  <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
+                    link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="contactPage">
       <div class="container">
-          <img id="penguin" src="assets/images/penguin.png">
-        <a id="logo">Jennifer Powell</a>
-        <nav id="header">
-          <a href="#aboutAnchor">About</a>
-          <a href="#portfolioAnchor">Portfolio</a>
-          <a href="#contactAnchor">Contact</a>
-        </nav>
-      </div>
-    </header>
-  </div>
+        <h1 id="contactAnchor" class="text-center pt-5">Contact</h1>
+        <div class="row">
+          <div class="col-lg-12">
 
-  <div id="main-container" class="container wrapper">
-    <section class="main-section" id = "about">
-      <h1 id="aboutAnchor">About Me</h1>
-      <img id="main-content" src="assets/images/me.png" class="auth-image" alt="Your Name">
-      <p id="p1"></p>
-
-    </section>
-
-  </div>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1 id="portfolioAnchor">Portfolio</h1>
-      <div id="portfolio">
-
-        <div class="card-group">
-          <div class="card" style="width: 18rem;">
-            <div class="card-header">Train Scheduler</div>
-            <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
-            <div class="card-body">
-              <p class="card-text">Some Information regarding the APP</p>
-            </div>
-            <div class="card-body">
-              <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
-                link</a>
-            </div>
-          </div>
-        </div>
-        <div class="card-group">
-          <div class="card" style="width: 18rem;">
-            <div class="card-header">Train Scheduler</div>
-            <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
-            <div class="card-body">
-              <p class="card-text">Some Information regarding the APP</p>
-            </div>
-            <div class="card-body">
-              <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
-                link</a>
-            </div>
-          </div>
-        </div>
-        <div class="card-group">
-          <div class="card" style="width: 18rem;">
-            <div class="card-header">Train Scheduler</div>
-            <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
-            <div class="card-body">
-              <p class="card-text">Some Information regarding the APP</p>
-            </div>
-            <div class="card-body">
-              <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
-                link</a>
-            </div>
-          </div>
-        </div>
-        <div class="card-group">
-          <div class="card" style="width: 18rem;">
-            <div class="card-header">House M.D. Trivia Game</div>
-            <img src="assets/images/house.png" class="card-img-top" alt="House Trivia Game">
-            <div class="card-body">
-              <p class="card-text">Some Information regarding the APP</p>
-            </div>
-            <div class="card-body">
-              <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
-                link</a>
-            </div>
-          </div>
-        </div>
-        <div class="card-group">
-          <div class="card" style="width: 18rem;">
-            <div class="card-header">Giphy Search</div>
-            <img src="assets/images/giphy.png" class="card-img-top" alt="Giphy Search">
-            <div class="card-body">
-              <p class="card-text">Some Information regarding the APP</p>
-            </div>
-            <div class="card-body">
-              <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
-                link</a>
-            </div>
-          </div>
-        </div>
-        <div class="card-group">
-          <div class="card" style="width: 18rem;">
-            <div class="card-header">Train Scheduler</div>
-            <img src="assets/images/trainScheduler.png" class="card-img-top" alt="Train Scheduler">
-            <div class="card-body">
-              <p class="card-text">Some Information regarding the APP</p>
-            </div>
-            <div class="card-body">
-              <a href="https://jerpowel321.github.io/Train-Scheduler/" target="blank" class="card-link">Deployed
-                link</a>
+            <div id="contactIcon">
+              <a href="https://www.linkedin.com/in/jenniferrpowell" target="blank"><img class="contactIcon"
+                  src="assets/images/linkedin.png" class="auth-image" alt="linkedin"></a>
+              <a href="https://github.com/jerpowel321" target="blank"><img class="contactIcon"
+                  src="assets/images/github.png" class="auth-image" alt="gitHub"></a>
+              <a href="https://medium.com/@jerpowel321/coding-bootcamp-reflection-computer-tropical-drink-3ebc5dc1503b"
+                target="blank"><img class="contactIcon" id="medium" src="assets/images/medium.png" class="auth-image"
+                  alt="blog"></a>
+              <a href="mailto:jerpowel@gmail.com?Subject=Hello I Saw Your Portfolio Webpage" target="blank"><img
+                  class="contactIcon" id="gmail" src="assets/images/gmail.png" class="auth-image" alt="blog"></a>
             </div>
           </div>
         </div>
       </div>
 
-    </section>
 
-  </div>
-  <div id="main-container" class="container wrapper">
-    <section class="main-section">
-      <h1 id="contactAnchor">Contact </h1>
-      <div id="contactIcon">
-        <a href="https://www.linkedin.com/in/jenniferrpowell" target="blank"><img class="contactIcon"
-            src="assets/images/linkedin.png" class="auth-image" alt="linkedin"></a>
-        <a href="https://github.com/jerpowel321" target="blank"><img class="contactIcon" src="assets/images/github.png"
-            class="auth-image" alt="gitHub"></a>
-        <a href="https://medium.com/@jerpowel321/coding-bootcamp-reflection-computer-tropical-drink-3ebc5dc1503b"
-          target="blank"><img class="contactIcon" id="medium" src="assets/images/medium.png" class="auth-image"
-            alt="blog"></a>
-        <a href="mailto:jerpowel@gmail.com?Subject=Hello I Saw Your Portfolio Webpage" target="blank"><img class="contactIcon" id="gmail"
-            src="assets/images/gmail.png" class="auth-image" alt="blog"></a>
-      </div>
+
+    </div>
+    <div id="main-container" class="container wrapper">
+      <section class="main-section">
+
+    </div>
     </section>
 
   </div>
@@ -169,9 +240,17 @@
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="assets/javascript/jumble.js"></script>
   <script src="assets/javascript/app.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 
 </body>
