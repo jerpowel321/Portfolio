@@ -379,4 +379,6 @@ body {
     margin: 15px 0;
   }
 
- 
+ p {
+  font-family: 'Raleway', sans-serif;
+ }
